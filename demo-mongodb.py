@@ -3,9 +3,9 @@ import json
 from pymongo import MongoClient
 
 # MongoDB Parameter
-CONNECTION_STRING = "mongodb://192.168.178.6:27017"
-DB = "database"
-COLLECTION = "collection"
+CONNECTION_STRING = "mongodb://<server>:<port>"
+DB = "<database>"
+COLLECTION = "<collection>"
 
 # Connect to MongoDB
 client = MongoClient(CONNECTION_STRING)
